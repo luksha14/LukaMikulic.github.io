@@ -113,6 +113,17 @@ input, select, textarea {
 		color: #43B3E0;
 		text-decoration: underline;
 	}
+    .image.featured img {
+        width: 284px;
+        height: 269px;
+        object-fit: cover; 
+        margin: 0 auto; 
+        display: block;
+    }
+
+    #projects .row {
+        margin-top: 30px;   /* povećaj/smanji po želji */
+    }
 
 		a:hover {
 			color: #43bff0 !important;
@@ -220,6 +231,11 @@ input, select, textarea {
 		footer > p {
 			font-size: 1.25em;
 		}
+    
+    p {
+        font-size: 1.2rem;  /* ili npr. 18px */
+        line-height: 1.6;  /* razmak između linija da ljepše izgleda */
+    }
 
 /* Container */
 
