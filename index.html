@@ -29,7 +29,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="cv_slika123.png" alt="" /></span>
+							<span class="image fit"><img src="cv_slika.png" alt="" /></span>
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
@@ -54,11 +54,11 @@
 					<div class="row">
 						<div class="col-12 col-12-medium">
 							<section class="box style1">
-								<p>I began my journey into programming a few years ago, discovering a passion that led me to pursue a degree in Computer Science at the University of Rijeka in 2021.
-									I am currently in my third year, specializing in Software Development and Program Support.
-									My previous work experiences have provided me with a strong foundation in teamwork and effective communication. Working closely with colleagues and clients, I have developed strong social and communication skills
-									I am now motivated to elevate my technical expertise to an advanced level. My primary focus lies in software development within the realm of artificial intelligence, also I am particularly enthusiastic about cyber security.
-									</p>
+								<p>I started programming a few years ago through simple experiments and it quickly grew into something I genuinely enjoy. That curiosity eventually led me to earn a <b>Bachelor’s degree</b> (September, 2025) in Computer Science at the University of Rijeka.
+                                Along the way, I’ve worked on several projects — mostly academic and personal ones — which gave me the chance to explore different ideas and technologies. These experiences have helped me develop adaptability and a fast-learning mindset.
+                                In addition to my academic journey, my previous work experiences gave me the chance to collaborate closely with colleagues and clients, which helped me strengthen my ability to work in teams and further develop my communication skills.
+                                Today, my main interests lie in <b>software development</b> and in exploring how <b>artificial intelligence</b> can be applied to create and improve applications.
+                                </p>
 							</section>
 						</div>
 					</div>
@@ -78,22 +78,52 @@
 							<hr>
 						</div>
 					</div>
+                    <div class="row">
+                        <div class="col-6 col-6-medium col-12-small">
+                            <article class="box style2">
+                                <a href="https://github.com/luksha14/Catan_Simulator" target="_blank" class="image featured"><img src="images/catan_igra_pp.png" alt="" /></a>
+                                <h3>Catan Simulator</h3>
+                                <p>A <b>Python</b> application that recreates the Catan board game with advanced map generation, rule validation and game simulations. It features automatic balanced map generation (resources, numbers and harbors) following official Catan rules and includes simulations to evaluate the best settlement spots and expected yields. The project also supports a bot player that can autonomously play the game to a target victory point score. It was built with Tkinter for the user interface and Matplotlib for board visualization.</p>
+                            </article>
+                        </div>
+
+                        <div class="col-6 col-6-medium col-12-small">
+                            <article class="box style2">
+                                <a href="#projects" target="_blank" class="image featured"><img src="images/cannonball_bg.jpg" alt="" /></a>
+                                <h3>CannonBall Simulation</h3>
+                                <p>Built in the <b>Haxe</b> programming language using OpenFL, this interactive 2D simulation models real-world physics including gravity, air resistance (based on projectile diameter), wind, mass, velocity and launch angle/height.
+                                It features trajectory comparison with and without drag, as well as a target practice mode where the user inputs target coordinates and attempts to hit it.</p>
+                            </article>
+                        </div>
+                    </div>
 					<div class="row">
 						<div class="col-6 col-6-medium col-12-small">
 							<article class="box style2">
 								<a href="https://somnia360.com/" target="_blank" class="image featured"><img src="logo2.png" alt="" /></a>
 								<h3><a href="https://somnia360.com/" target="_blank">Somnia 360° Photobooth</a></h3>
-								<p>Website for Photobooth Somnia 360°</p>
+								<p>A responsive website built for <b>Somnia 360° Photobooth</b>, showcasing services, image and video galleries and an integrated contact form with direct email functionality. The project is primarily front-end but also includes a simple back-end feature for handling messages.
+                                </p>
 							</article>
 						</div>
 						<div class="col-6 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#projects" class="image featured"><img src="car_rent1.png" alt="" /></a>
+								<a href="https://github.com/luksha14/RIRentalCar" target="_blank" class="image featured"><img src="car_rent1.png" alt="" /></a>
 								<h3>RIdeVoyage</h3>
-								<p>Car Rental Application Development in C# (Work in Progress)</p>
+								<p>An academic project developed in <b>C#</b>, designed to simulate a car rental system. The application allows users to add and remove cars, select rental dates, make reservations and leave reviews. It demonstrates key concepts of software development, including data handling, user interaction and basic CRUD functionality.
+                                </p>
 							</article>						
 						</div>
 					</div>
+                    <div class="row">
+                        <div class="col-6 col-6-medium col-12-small" style="margin: 0 auto; float: none;">
+                            <article class="box style2">
+                            <a href="https://github.com/luksha14/crowdfunding-startup-system" target="_blank" class="image featured"><img src="/images/Funding.jpg" alt="" /></a>
+                            <h3>Crowfunding Startup - Django App</h3>
+                            <p>A <b>Django web application</b> with user authentication, role-based authorization (admin and regular user) and full CRUD functionality. The system includes user management, data browsing with filtering and search, as well as the ability to add, edit and delete objects. Additionally, I implemented a RESTful API using Django REST Framework, providing secure endpoints for basic CRUD operations with authentication.
+                            </p>
+                            </article>
+                        </div>
+                        </div>
 				</div>
 				<footer>
 					<a href="#contact" class="button large scrolly">Contact me</a>
@@ -103,59 +133,28 @@
 
 		<!-- Contact -->
 		<article id="contact" class="wrapper style4">
-			<div class="container medium">
-				<header>
-					<h2>Need more details? Contact me for further assistance.</h2>
-				</header>
-				<div class="row">
-					<div class="col-12">
-						<form method="post" action="send_email.php">
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<input type="text" name="name" id="name" placeholder="Name" required />
-								</div>
-								<div class="col-6 col-12-small">
-									<input type="text" name="email" id="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
-								</div>
-								<div class="col-12">
-									<input type="text" name="subject" id="subject" placeholder="Subject" required />
-								</div>
-								<div class="col-12">
-									<textarea name="message" id="message" placeholder="Message" required></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" /></li>
-										<li><input type="reset" value="Clear Form" class="alt" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</div>
-					
-					<div class="col-12">
-						<hr />
-						<h3>Find me on:</h3>
-						<ul class="social">
-							<li><a href="https://www.linkedin.com/in/luka-mikuli%C4%87-020aa0240/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/luksha14" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<!--
-							<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-							<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-							<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-							<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-							<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-							<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-							<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-							-->
-						</ul>
-						<hr />
-					</div>
-				</div>
-			</div>
-		</article>
+        <div class="container medium">
+            <header>
+            <h2>Contact Me</h2>
+            <p>If you’d like to collaborate or just learn more about what I do, don’t hesitate to email me at:</p>
+            <p>
+                <a href="mailto:lukaamikulic@gmail.com">E-mail</a>
+            </p>
+            </header>
+
+            <div class="row">
+            <div class="col-12">
+                <hr />
+                <h3>Find me on:</h3>
+                <ul class="social">
+                <li><a href="https://www.linkedin.com/in/luka-mikuli%C4%87-020aa0240/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/luksha14" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                </ul>
+                <hr />
+            </div>
+            </div>
+        </div>
+        </article>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
