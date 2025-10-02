@@ -20,3 +20,4 @@ Check it out here 👉 [Portfolio Website](https://luksha14.github.io/LukaMikuli
 If you’d like to learn more about me or my projects, feel free to reach me at  
 📧 [E-mail](mailto:lukaamikulic@gmail.com)  
 or connect with me on [LinkedIn](https://www.linkedin.com/in/luka-mikuli%C4%87-020aa0240/) and [GitHub](https://github.com/luksha14).
+
