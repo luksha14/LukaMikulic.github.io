@@ -120,6 +120,10 @@ input, select, textarea {
         margin: 0 auto; 
         display: block;
     }
+	.mail-icon {
+        font-size: 2em;
+        text-decoration: none;
+    }
 
     #projects .row {
         margin-top: 30px;   /* povećaj/smanji po želji */
