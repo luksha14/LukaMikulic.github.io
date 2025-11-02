@@ -20,18 +20,27 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel="icon" type="image/png" href="images/fav_logo.jpg">
+		<script src="assets/js/script.js" defer></script>
 	</head>
 	<body class="is-preload">
 
 		<!-- Nav -->
 			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<li><a href="#about">About Me</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+            <ul class="container">
+                <li><a href="#top" id="navTop">Top</a></li>
+                <li><a href="#about" id="navAbout">About Me</a></li>
+                <li><a href="#projects" id="navProjects">Projects</a></li>
+                <li><a href="#contact" id="navContact">Contact</a></li>
+            </ul>
+            <div class="language-dropdown">
+            <span id="current-lang" class="lang-label">EN</span>
+            <div class="language-menu">
+                <img src="images/flag_en.jpeg" alt="English" data-lang="en">
+                <img src="images/flag_de.jpeg" alt="Deutsch" data-lang="de">
+                <img src="images/flag_hr.jpeg" alt="Hrvatski" data-lang="hr">
+            </div>
+            </div>
+            </nav>
 
 		<!-- Home -->
 			<article id="top" class="wrapper style1">
@@ -274,3 +283,4 @@
 
 	</body>
 </html>
+
