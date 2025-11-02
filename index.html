@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel="icon" type="image/png" href="images/fav_logo.jpg">
-		<script src="assets/js/script.js" defer></script>
+        <script src="assets/js/script.js" defer></script>
 	</head>
 	<body class="is-preload">
 
@@ -41,6 +41,7 @@
             </div>
             </div>
             </nav>
+
 
 		<!-- Home -->
 			<article id="top" class="wrapper style1">
@@ -99,7 +100,7 @@
                 <!-- 1. red -->
                 <div class="row">
                     <div class="col-6 col-6-medium col-12-small">
-                        <article class="box style2 fade-in">
+                        <article id="catan" class="box style2 fade-in">
                             <a href="https://github.com/luksha14/Catan_Simulator" target="_blank" class="image featured"><img src="images/catan_igra_pp.png" alt="" /></a>
                             <h3>Catan Simulator</h3>
                             <p>A <b>Python</b> application that recreates the Catan board game with advanced map generation, rule validation and game simulations. It features automatic balanced map generation (resources, numbers and harbors) following official Catan rules and includes simulations to evaluate the best settlement spots and expected yields. The project also supports a bot player that can autonomously play the game to a target victory point score. It was built with Tkinter for the user interface and Matplotlib for board visualization.</p>
@@ -108,7 +109,7 @@
                     </div>
 
                     <div class="col-6 col-6-medium col-12-small">
-                        <article class="box style2 fade-in">
+                        <article id="cannon" class="box style2 fade-in">
                             <a href="https://github.com/luksha14/CannonBall_Simulation_Haxe_Openfl" target="_blank" class="image featured"><img src="images/cannonball_bg.jpg" alt="" /></a>
                             <h3>CannonBall Simulation</h3>
                             <p>Built in the <b>Haxe</b> programming language using OpenFL, this interactive 2D simulation models real-world physics including gravity, air resistance (based on projectile diameter), wind, mass, velocity and launch angle/height.
@@ -121,7 +122,7 @@
                 <!-- 2. red -->
                 <div class="row">
                     <div class="col-6 col-6-medium col-12-small">
-                        <article class="box style2 fade-in">
+                        <article id="somnia" class="box style2 fade-in">
                             <a href="https://somnia360.com/" target="_blank" class="image featured"><img src="logo2.png" alt="" /></a>
                             <h3><a href="https://somnia360.com/" target="_blank">Somnia 360° Photobooth</a></h3>
                             <p>A responsive website built for <b>Somnia 360° Photobooth</b>, showcasing services, image and video galleries and an integrated contact form with direct email functionality. The project is primarily front-end but also includes a simple back-end feature for handling messages.
@@ -130,7 +131,7 @@
                     </div>
 
                     <div class="col-6 col-6-medium col-12-small">
-                        <article class="box style2 fade-in">
+                        <article id="hotel" class="box style2 fade-in">
                             <a href="https://github.com/luksha14/Hotel_Reservation_Flutter" target="_blank" class="image featured"><img src="images/hotel_reservations.jpg" alt="" /></a>
                             <h3>Hotel Reservation App</h3>
                             <p>A cross-platform <b>Flutter</b> application for managing hotel room reservations. It features an intuitive interface for browsing available rooms, checking availability and making reservations with automatic price calculation. The app uses <b>SQLite</b> for local data storage and includes detailed room descriptions and images. Designed with responsive layouts, smooth navigation combined with efficient database management.
@@ -143,16 +144,16 @@
                 <!-- 3. red -->
                 <div class="row">
                     <div class="col-6 col-6-medium col-12-small">
-                        <article class="box style2 fade-in">
+                        <article id="ride" class="box style2 fade-in">
                             <a href="https://github.com/luksha14/RIRentalCar" target="_blank" class="image featured"><img src="car_rent1.png" alt="" /></a>
                             <h3>RIdeVoyage</h3>
-                            <p>An academic project developed in <b>C#</b>, designed to simulate a car rental system. The application allows users to add and remove cars, select rental dates, make reservations and leave reviews. It demonstrates key concepts of software development, including data handling, user interaction and basic CRUD functionality.
+                            <p>An academic project developed in <b>C#</b>, designed to simulate a car rental system. The application allows admin/users to add and remove cars, select rental dates, make reservations and leave reviews. It demonstrates key concepts of software development, including data handling, user interaction and basic CRUD functionality.
                             </p>
                         </article>						
                     </div>
 
                     <div class="col-6 col-6-medium col-12-small">
-                        <article class="box style2 fade-in">
+                        <article id="crowd" class="box style2 fade-in">
                             <a href="https://github.com/luksha14/crowdfunding-startup-system" target="_blank" class="image featured"><img src="images/funding.jpg" alt="" /></a>
                             <h3>Crowdfunding Startup - Django App</h3>
                             <p>A <b>Django web application</b> with user authentication, role-based authorization (admin and regular user) and full CRUD functionality. The system includes user management, data browsing with filtering and search, as well as the ability to add, edit and delete objects. Additionally, I implemented a RESTful API using Django REST Framework, providing secure endpoints for basic CRUD operations with authentication.
@@ -163,7 +164,7 @@
             </div>
 
 				<footer>
-					<a href="#contact" class="button large scrolly">Contact me</a>
+					<a id="contact-btn" href="#contact" class="button large scrolly">Contact me</a>
 				</footer>
 				
 			</article>
@@ -283,4 +284,3 @@
 
 	</body>
 </html>
-
