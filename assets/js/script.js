@@ -23,6 +23,8 @@ const translations = {
     rideText: "An academic project developed in <b>C#</b>, designed to simulate a car rental system. The application allows admin/users to add and remove cars, select rental dates, make reservations and leave reviews. It demonstrates key concepts of software development, including data handling, user interaction and basic CRUD functionality.",
     crowdTitle: "Crowdfunding Startup - Django App",
     crowdText: "A <b>Django web application</b> with user authentication, role-based authorization (admin and regular user) and full CRUD functionality. The system includes user management, data browsing with filtering and search, as well as a RESTful API for secure CRUD operations.",
+    additionalText1: `<span style="font-weight: 600;">Looking for more?</span> Check out my advanced academic work, including the <a href="https://github.com/luksha14/Linux_System_Programming_Project" target="_blank" style="color: #2c918a; text-decoration: underline;">Linux System Programming Project</a> and the <a href="https://github.com/luksha14/JournalOfClimate_DataParser" target="_blank" style="color: #2c918a; text-decoration: underline;">PDF Data Parser</a>.`,
+    additionalText2: `You can find all my other projects and contributions directly on my <a href="https://github.com/luksha14?tab=repositories" target="_blank" style="color: #2c918a; font-weight: 700; text-decoration: underline;">GitHub Profile</a>.`,
     contactTitle: "Contact Me",
     contactText: "If you’d like to collaborate or just learn more about what I do, don’t hesitate to email me at:",
     contactFind: "Find me on:",
@@ -54,6 +56,8 @@ const translations = {
     rideText: "Akademski projekt izrađen u <b>C#</b> jeziku koji simulira sustav za najam automobila. Admin/Korisnici mogu dodavati i brisati automobile, odabrati datume najma, izvršiti rezervacije i ostaviti recenzije. Projekt prikazuje ključne koncepte razvoja softvera – rad s podacima, korisničku interakciju i osnovne CRUD funkcionalnosti.",
     crowdTitle: "Crowdfunding Startup - Django aplikacija",
     crowdText: "<b>Django web aplikacija</b> s korisničkom autentifikacijom, autorizacijom uloga (admin i korisnik) te potpunom CRUD funkcionalnošću. Sustav omogućuje upravljanje korisnicima, pretraživanje i filtriranje podataka te RESTful API za sigurne CRUD operacije.",
+    additionalText1: `<span style="font-weight: 600;">Želite vidjeti više?</span> Pogledajte neke moje akademske radove, uključujući <a href="https://github.com/luksha14/Linux_System_Programming_Project" target="_blank" style="color: #2c918a; text-decoration: underline;">Linux System Programming Project</a> i <a href="https://github.com/luksha14/JournalOfClimate_DataParser" target="_blank" style="color: #2c918a; text-decoration: underline;">PDF Data Parser</a>.`,
+    additionalText2: `Sve ostale projekte možete pronaći na mom <a href="https://github.com/luksha14?tab=repositories" target="_blank" style="color: #2c918a; font-weight: 700; text-decoration: underline;">GitHub profilu</a>.`,
     contactTitle: "Kontakt",
     contactText: "Ako želite surađivati ili saznati više o onome što radim, slobodno mi se javite na e-mail:",
     contactFind: "Pronađite me na:",
@@ -86,6 +90,8 @@ const translations = {
     rideText: "Ein akademisches Projekt, entwickelt in C#, zur Simulation eines umfassenden Mietwagensystems. Die Anwendung ermöglicht es Administrator*innen und Benutzer*innen, Fahrzeuge hinzuzufügen und zu entfernen, Mietdaten auszuwählen, Reservierungen vorzunehmen und Bewertungen abzugeben. Dieses Projekt demonstriert Schlüsselkonzepte der Softwareentwicklung, darunter Datenverarbeitung, Benutzerinteraktion und grundlegende CRUD-Funktionalität.",
     crowdTitle: "Crowdfunding Startup - Django App",
     crowdText: "Eine Django Web-Anwendung mit Benutzerauthentifizierung, rollenbasierter Autorisierung (Admin und reguläre*r Benutzer*in) und voller CRUD-Funktionalität. Das System umfasst Benutzerverwaltung, Datenrecherche mit Filter- und Suchfunktionen sowie die Möglichkeit, Objekte hinzuzufügen, zu bearbeiten und zu löschen. Zusätzlich habe ich eine RESTful API unter Verwendung des Django REST Frameworks implementiert, die gesicherte Endpunkte für grundlegende CRUD-Operationen mit Authentifizierung bereitstellt.",
+    additionalText1: `<span style="font-weight: 600;">Möchten Sie mehr sehen?</span> Werfen Sie einen Blick auf meine weiterführenden akademischen Arbeiten, darunter das <a href="https://github.com/luksha14/Linux_System_Programming_Project" target="_blank" style="color: #2c918a; text-decoration: underline;">Linux System Programming Project</a> und den <a href="https://github.com/luksha14/JournalOfClimate_DataParser" target="_blank" style="color: #2c918a; text-decoration: underline;">PDF Data Parser</a>.`,
+    additionalText2: `Alle meine weiteren Projekte finden Sie auf meinem <a href="https://github.com/luksha14?tab=repositories" target="_blank" style="color: #2c918a; font-weight: 700; text-decoration: underline;">GitHub-Profil</a>.`,
     contactTitle: "Kontakt",
     contactText: "Wenn Sie mit mir zusammenarbeiten oder mehr über meine Arbeit erfahren möchten, schreiben Sie mir gerne eine E-Mail:",
     contactFind: "Finden Sie mich auf:",
@@ -122,6 +128,9 @@ function setLanguage(lang) {
   document.querySelector('#ride p').innerHTML = t.rideText;
   document.querySelector('#crowd h3').textContent = t.crowdTitle;
   document.querySelector('#crowd p').innerHTML = t.crowdText;
+  // dodatni projekti tekst
+  document.querySelectorAll('.additional-projects-text')[0].innerHTML = translations[lang].additionalText1;
+  document.querySelectorAll('.additional-projects-text')[1].innerHTML = translations[lang].additionalText2;
 
   document.querySelector('#contact h2').textContent = t.contactTitle;
   document.querySelector('#contact header p').textContent = t.contactText;
