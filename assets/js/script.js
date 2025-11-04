@@ -129,8 +129,11 @@ function setLanguage(lang) {
   document.querySelector('#crowd h3').textContent = t.crowdTitle;
   document.querySelector('#crowd p').innerHTML = t.crowdText;
   // dodatni projekti tekst
-  document.querySelectorAll('.additional-projects-text')[0].innerHTML = translations[lang].additionalText1;
-  document.querySelectorAll('.additional-projects-text')[1].innerHTML = translations[lang].additionalText2;
+  const add1 = document.getElementById('additional1');
+  const add2 = document.getElementById('additional2');
+
+  if (add1) add1.innerHTML = translations[lang].additionalText1;
+  if (add2) add2.innerHTML = translations[lang].additionalText2;
 
   document.querySelector('#contact h2').textContent = t.contactTitle;
   document.querySelector('#contact header p').textContent = t.contactText;
