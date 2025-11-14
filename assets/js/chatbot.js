@@ -1,4 +1,4 @@
-const API_URL = "https://chatbot-backend-pchr.onrender.com";
+const API_URL = "https://chatbot-backend-pchr.onrender.com/api/chat";
 
 // Global DOM references
 let chatContainer; 
