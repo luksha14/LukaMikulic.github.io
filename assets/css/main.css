@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 
-/*
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -299,6 +293,142 @@ input, select, textarea {
     p {
         font-size: 1.2rem;  /* ili npr. 18px */
         line-height: 1.6;  /* razmak između linija da ljepše izgleda */
+    }
+
+	.quick-reply-button-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allows buttons to wrap to the next line */
+    gap: 8px; /* Space between buttons */
+    padding: 10px;
+    background-color: #f1f1f1; /* Lighter background to highlight the buttons */
+    border-radius: 8px;
+    }
+
+    .quick-reply-button {
+        background-color: #333; /* Dark background */
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 0.9em;
+        transition: background-color 0.2s;
+    }
+
+    .quick-reply-button:hover {
+        background-color: #555;
+    }
+
+    /* CHAT ICON BUTTON */
+    #chatbot-toggle {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #111;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 28px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    z-index: 9999;
+    transition: transform 0.2s;
+    }
+
+    #chatbot-toggle:hover {
+    transform: scale(1.05);
+    }
+
+    /* CHAT WINDOW */
+    #chatbot-window {
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    width: 340px;
+    height: 420px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 9999;
+    }
+
+    /* HEADER */
+    .chat-header {
+    background: #111;
+    color: white;
+    padding: 12px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    }
+
+    /* MESSAGES AREA */
+    .chat-body {
+    flex: 1;
+    padding: 12px;
+    overflow-y: auto;
+    font-family: Arial, sans-serif;
+    }
+
+    /* BUBBLES */
+    .message {
+    margin-bottom: 10px;
+    max-width: 75%;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.35;
+    }
+
+    .bot {
+    background: #eee;
+    align-self: flex-start;
+    }
+
+    .user {
+    background: #111;
+    color: white;
+    align-self: flex-end;
+    }
+
+    /* INPUT FIELD */
+    .chat-input {
+    padding: 10px;
+    display: flex;
+    border-top: 1px solid #ddd;
+    }
+
+    .chat-input input {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    }
+
+    .chat-input button {
+    margin-left: 8px;
+    padding: 8px 14px;
+    background: #111;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+
+    /* TYPING EFFECT */
+    .typing {
+    font-style: italic;
+    opacity: 0.7;
     }
 
 /* Container */
