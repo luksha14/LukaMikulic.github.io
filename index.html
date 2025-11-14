@@ -210,6 +210,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/chatbot.js"></script>
             <script>
             function openVideo(videoSrc) {
                 // overlay container
@@ -291,8 +292,22 @@
             });
             </script>
 
+			<!-- CHAT ICON -->
+            <div id="chatbot-toggle">💬</div>
+
+            <!-- CHAT WINDOW -->
+            <div id="chatbot-window">
+            <div class="chat-header">Chat with Luka's Bot 🤖</div>
+            <div class="chat-body" id="chatbot-body"></div>
+            <div class="chat-input">
+                <input type="text" id="chatbot-input" placeholder="Ask me anything..." />
+                <button id="chatbot-send">Send</button>
+            </div>
+            </div>
+
 	</body>
 </html>
+
 
 
 
