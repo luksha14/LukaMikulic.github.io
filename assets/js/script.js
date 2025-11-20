@@ -19,8 +19,8 @@ const translations = {
     somniaText: "A responsive website built for <b>Somnia 360° Photobooth</b>, showcasing services, image and video galleries and an integrated contact form with direct email functionality. The project is primarily front-end but also includes a simple back-end feature for handling messages.",
     hotelTitle: "Hotel Reservation App",
     hotelText: "A cross-platform <b>Flutter</b> application for managing hotel room reservations. It features an intuitive interface for browsing available rooms, checking availability and making reservations with automatic price calculation. The app uses <b>SQLite</b> for local data storage and includes detailed room descriptions and images.",
-    rideTitle: "RIdeVoyage",
-    rideText: "An academic project developed in <b>C#</b>, designed to simulate a car rental system. The application allows admin/users to add and remove cars, select rental dates, make reservations and leave reviews. It demonstrates key concepts of software development, including data handling, user interaction and basic CRUD functionality.",
+    passwordTitle: "CLI Password Manager",
+    passwordText: "A secure and high-performance <b>C++</b> Password Manager built with AES-256-GCM encryption, a Master-Password-based security model and full session protection. All credentials are stored locally in an encrypted SQLite database. The project includes secure memory wiping, a slow key-derivation function (KDF), auto-lock mechanism, encrypted import/export functionality, high-entropy password generation and a color-coded CLI interface.",
     crowdTitle: "Crowdfunding Startup - Django App",
     crowdText: "A <b>Django web application</b> with user authentication, role-based authorization (admin and regular user) and full CRUD functionality. The system includes user management, data browsing with filtering and search, as well as a RESTful API for secure CRUD operations.",
     additionalText1: `<span style="font-weight: 600;">Looking for more?</span> Check out my advanced academic work, including the <a href="https://github.com/luksha14/Linux_System_Programming_Project" target="_blank" style="color: #2c918a; text-decoration: underline;">Linux System Programming Project</a> and the <a href="https://github.com/luksha14/JournalOfClimate_DataParser" target="_blank" style="color: #2c918a; text-decoration: underline;">PDF Data Parser</a>.`,
@@ -52,8 +52,8 @@ const translations = {
     somniaText: "Responzivna web stranica izrađena za <b>Somnia 360° Photobooth</b>, s prikazom usluga, galerijom slika i videa te ugrađenim kontakt obrascem koji omogućuje izravan e-mail kontakt. Projekt je prvenstveno front-end ali uključuje i jednostavnu back-end funkcionalnost za obradu poruka.",
     hotelTitle: "Aplikacija za rezervaciju hotela",
     hotelText: "Aplikacija napisana u <b>Flutter</b> programskom jeziku za upravljanje rezervacijama hotelskih soba. Ima intuitivno sučelje za pregled dostupnih soba, provjeru dostupnosti i izradu rezervacija s automatskim izračunom cijene. Aplikacija koristi <b>SQLite</b> za lokalnu pohranu podataka i uključuje detaljne opise i slike soba.",
-    rideTitle: "RIdeVoyage",
-    rideText: "Akademski projekt izrađen u <b>C#</b> jeziku koji simulira sustav za najam automobila. Admin/Korisnici mogu dodavati i brisati automobile, odabrati datume najma, izvršiti rezervacije i ostaviti recenzije. Projekt prikazuje ključne koncepte razvoja softvera – rad s podacima, korisničku interakciju i osnovne CRUD funkcionalnosti.",
+    passwordTitle: "CLI Password Manager",
+    passwordText: "Siguran i visokoučinkovit Password Manager u <b>C++</b> jeziku izgrađen s AES-256-GCM enkripcijom, sigurnosnim modelom temeljenim na master lozinci i potpunom zaštitom sesije. Svi podaci pohranjeni su lokalno u enkriptiranoj SQLite bazi. Projekt uključuje sigurno brisanje memorije, KDF za derivaciju ključa, auto-lock mehanizam, enkriptirani export/import, generator sigurnih lozinki i CLI sučelje obogaćeno bojama.",
     crowdTitle: "Crowdfunding Startup - Django aplikacija",
     crowdText: "<b>Django web aplikacija</b> s korisničkom autentifikacijom, autorizacijom uloga (admin i korisnik) te potpunom CRUD funkcionalnošću. Sustav omogućuje upravljanje korisnicima, pretraživanje i filtriranje podataka te RESTful API za sigurne CRUD operacije.",
     additionalText1: `<span style="font-weight: 600;">Želite vidjeti više?</span> Pogledajte neke moje akademske radove, uključujući <a href="https://github.com/luksha14/Linux_System_Programming_Project" target="_blank" style="color: #2c918a; text-decoration: underline;">Linux System Programming Project</a> i <a href="https://github.com/luksha14/JournalOfClimate_DataParser" target="_blank" style="color: #2c918a; text-decoration: underline;">PDF Data Parser</a>.`,
@@ -86,8 +86,8 @@ const translations = {
     somniaText: "Eine vollständig responsive Website, die für Somnia 360° Photobooth entwickelt wurde. Sie präsentiert die angebotenen Dienstleistungen, enthält umfangreiche Bilder- und Videogalerien und verfügt über ein integriertes Kontaktformular mit direkter E-Mail-Funktionalität. Das Projekt ist primär Frontend-orientiert, beinhaltet aber auch ein schlankes Backend-Feature zur effizienten Nachrichtenverarbeitung.",
     hotelTitle: "Hotelreservierungs-App",
     hotelText: "Eine plattformübergreifende Flutter-Anwendung zur Verwaltung von Hotelzimmerreservierungen. Sie bietet eine intuitive Benutzeroberfläche zum entdecken verfügbarer Zimmer, zur Überprüfung der Verfügbarkeit und zum Vornehmen von Reservierungen mit automatischer Preisberechnung. Die App nutzt SQLite zur lokalen Datenspeicherung und enthält detaillierte Zimmerbeschreibungen und Bilder. Das Design zeichnet sich durch responsive Layouts und flüssige Navigation in Kombination mit effizienter Datenbankverwaltung aus.",
-    rideTitle: "RIdeVoyage",
-    rideText: "Ein akademisches Projekt, entwickelt in C#, zur Simulation eines umfassenden Mietwagensystems. Die Anwendung ermöglicht es Administrator*innen und Benutzer*innen, Fahrzeuge hinzuzufügen und zu entfernen, Mietdaten auszuwählen, Reservierungen vorzunehmen und Bewertungen abzugeben. Dieses Projekt demonstriert Schlüsselkonzepte der Softwareentwicklung, darunter Datenverarbeitung, Benutzerinteraktion und grundlegende CRUD-Funktionalität.",
+    passwordTitle: "CLI Password Manager",
+    passwordText: "Ein sicherer und leistungsstarker <b>C++</b> Passwort-Manager, entwickelt mit AES-256-GCM Verschlüsselung, einem Master-Passwort-Sicherheitsmodell und vollständigem Session-Schutz. Alle Zugangsdaten werden lokal in einer verschlüsselten SQLite-Datenbank gespeichert. Das Projekt umfasst sicheres Memory-Wiping, eine langsame Key-Derivation-Function (KDF), einen Auto-Lock Mechanismus, verschlüsselten Export/Import, einen Generator für sichere Passwörter und ein farbcodiertes CLI-Interface.",
     crowdTitle: "Crowdfunding Startup - Django App",
     crowdText: "Eine Django Web-Anwendung mit Benutzerauthentifizierung, rollenbasierter Autorisierung (Admin und reguläre*r Benutzer*in) und voller CRUD-Funktionalität. Das System umfasst Benutzerverwaltung, Datenrecherche mit Filter- und Suchfunktionen sowie die Möglichkeit, Objekte hinzuzufügen, zu bearbeiten und zu löschen. Zusätzlich habe ich eine RESTful API unter Verwendung des Django REST Frameworks implementiert, die gesicherte Endpunkte für grundlegende CRUD-Operationen mit Authentifizierung bereitstellt.",
     additionalText1: `<span style="font-weight: 600;">Möchten Sie mehr sehen?</span> Werfen Sie einen Blick auf meine weiterführenden akademischen Arbeiten, darunter das <a href="https://github.com/luksha14/Linux_System_Programming_Project" target="_blank" style="color: #2c918a; text-decoration: underline;">Linux System Programming Project</a> und den <a href="https://github.com/luksha14/JournalOfClimate_DataParser" target="_blank" style="color: #2c918a; text-decoration: underline;">PDF Data Parser</a>.`,
@@ -124,8 +124,8 @@ function setLanguage(lang) {
   document.querySelector('#somnia p').innerHTML = t.somniaText;
   document.querySelector('#hotel h3').textContent = t.hotelTitle;
   document.querySelector('#hotel p').innerHTML = t.hotelText;
-  document.querySelector('#ride h3').textContent = t.rideTitle;
-  document.querySelector('#ride p').innerHTML = t.rideText;
+  document.querySelector('#passwordmanager h3').textContent = t.passwordTitle;
+  document.querySelector('#passwordmanager p').innerHTML = t.passwordText;
   document.querySelector('#crowd h3').textContent = t.crowdTitle;
   document.querySelector('#crowd p').innerHTML = t.crowdText;
   // dodatni projekti tekst
@@ -134,6 +134,7 @@ function setLanguage(lang) {
 
   if (add1) add1.innerHTML = translations[lang].additionalText1;
   if (add2) add2.innerHTML = translations[lang].additionalText2;
+
 
   document.querySelector('#contact h2').textContent = t.contactTitle;
   document.querySelector('#contact header p').textContent = t.contactText;
