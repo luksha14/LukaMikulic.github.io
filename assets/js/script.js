@@ -15,10 +15,10 @@ const translations = {
     catanText: "A <b>Python</b> application that recreates the Catan board game with advanced map generation, rule validation and game simulations. It features automatic balanced map generation (resources, numbers and harbors) following official Catan rules and includes simulations to evaluate the best settlement spots and expected yields. The project also supports a bot player that can autonomously play the game to a target victory point score.",
     cannonTitle: "CannonBall Simulation",
     cannonText: "Built in the <b>Haxe</b> programming language using OpenFL, this interactive 2D simulation models real-world physics including gravity, air resistance (based on projectile diameter), wind, mass, velocity and launch angle/height. It features trajectory comparison with and without drag, as well as a target practice mode where the user inputs target coordinates and attempts to hit it.",
-    somniaTitle: "Somnia 360° Photobooth",
-    somniaText: "A responsive website built for <b>Somnia 360° Photobooth</b>, showcasing services, image and video galleries and an integrated contact form with direct email functionality. The project is primarily front-end but also includes a simple back-end feature for handling messages.",
-    hotelTitle: "Hotel Reservation App",
-    hotelText: "A cross-platform <b>Flutter</b> application for managing hotel room reservations. It features an intuitive interface for browsing available rooms, checking availability and making reservations with automatic price calculation. The app uses <b>SQLite</b> for local data storage and includes detailed room descriptions and images.",
+    somniaTitle: "Somnia 360°",
+    somniaText: "A responsive website built for <b>Somnia 360°</b>, showcasing services, image and video galleries and an integrated contact form with direct email functionality. The project is primarily front-end but also includes a simple back-end feature for handling messages.",
+    fraudDetectorTitle: "AI Real-time Fraud Detector",
+    fraudDetectorText: "Production style real-time fraud detection platform for card payment transactions, built with <b>Python</b>, FastAPI, Kafka, TensorFlow, PostgreSQL, Docker, and Streamlit. Uses Autoencoder neural networks for anomaly detection and live transaction monitoring through a distributed streaming architecture, with integrated testing, scalable microservices design, and realistic financial data simulation.",
     passwordTitle: "CLI Password Manager",
     passwordText: "A secure and high-performance <b>C++</b> Password Manager built with AES-256-GCM encryption, a Master-Password-based security model and full session protection. All credentials are stored locally in an encrypted SQLite database. The project includes secure memory wiping, a slow key-derivation function (KDF), auto-lock mechanism, encrypted import/export functionality, high-entropy password generation and a color-coded CLI interface.",
     crowdTitle: "Crowdfunding Startup - Django App",
@@ -48,10 +48,10 @@ const translations = {
     catanText: "Aplikacija napisana u <b>Pythonu</b> koja kreira društvenu igru Catan uz napredno postavljanje mape, provjeru pravila i simulacije igre. Uključuje automatsko balansiranje resursa, brojeva i luka prema službenim pravilima te omogućava simulacije koje izračunavaju najbolja mjesta za naselja i očekivane prinose. Projekt podržava i bot igrača koji može samostalno igrati do ciljanog broja pobjedničkih bodova.",
     cannonTitle: "CannonBall Simulacija",
     cannonText: "Napravljen u programskom jeziku <b>Haxe</b> koristeći OpenFL, ovaj interaktivni 2D simulator prikazuje realnu fiziku uključujući gravitaciju, otpor zraka (ovisno o promjeru projektila), vjetar, masu, brzinu i kut/visinu lansiranja. Omogućuje usporedbu putanja sa i bez otpora zraka te način vježbe gađanja mete s korisničkim unosom koordinata.",
-    somniaTitle: "Somnia 360° Photobooth",
-    somniaText: "Responzivna web stranica izrađena za <b>Somnia 360° Photobooth</b>, s prikazom usluga, galerijom slika i videa te ugrađenim kontakt obrascem koji omogućuje izravan e-mail kontakt. Projekt je prvenstveno front-end ali uključuje i jednostavnu back-end funkcionalnost za obradu poruka.",
-    hotelTitle: "Aplikacija za rezervaciju hotela",
-    hotelText: "Aplikacija napisana u <b>Flutter</b> programskom jeziku za upravljanje rezervacijama hotelskih soba. Ima intuitivno sučelje za pregled dostupnih soba, provjeru dostupnosti i izradu rezervacija s automatskim izračunom cijene. Aplikacija koristi <b>SQLite</b> za lokalnu pohranu podataka i uključuje detaljne opise i slike soba.",
+    somniaTitle: "Somnia 360°",
+    somniaText: "Responzivna web stranica izrađena za <b>Somnia 360°</b>, s prikazom usluga, galerijom slika i videa te ugrađenim kontakt obrascem koji omogućuje izravan e-mail kontakt. Projekt je prvenstveno front-end ali uključuje i jednostavnu back-end funkcionalnost za obradu poruka.",
+    fraudDetectorTitle: "AI Real-time Fraud Detector",
+    fraudDetectorText: "Production style sustav za detekciju prijevara u stvarnom vremenu za kartične transakcije, razvijen pomoću <b>Python-a</b>, FastAPI-ja, Kafke, TensorFlowa, PostgreSQL-a, Dockera i Streamlita. Koristi Autoencoder neuronske mreže za detekciju anomalija i praćenje transakcija uživo kroz distribuiranu streaming arhitekturu, uz integrirano testiranje, skalabilni microservices dizajn i simulaciju realnih financijskih podataka.",
     passwordTitle: "CLI Password Manager",
     passwordText: "Siguran i visokoučinkovit Password Manager u <b>C++</b> jeziku izgrađen s AES-256-GCM enkripcijom, sigurnosnim modelom temeljenim na master lozinci i potpunom zaštitom sesije. Svi podaci pohranjeni su lokalno u enkriptiranoj SQLite bazi. Projekt uključuje sigurno brisanje memorije, KDF za derivaciju ključa, auto-lock mehanizam, enkriptirani export/import, generator sigurnih lozinki i CLI sučelje obogaćeno bojama.",
     crowdTitle: "Crowdfunding Startup - Django aplikacija",
@@ -82,10 +82,10 @@ const translations = {
     catanText: "Eine <b>Python</b>-App, die das Brettspiel Catan mit fortschrittlicher Landkartengenerierung, Regelüberprüfung und Spielsimulationen nachbildet. Sie beinhaltet eine automatische, ausgewogene Landkartenverteilung (Ressourcen, Zahlen, Häfen) nach den offiziellen Regeln, plus Simulationen zur Analyse der besten Siedlungsplätze. Im Projekt ist auch ein Bot-Spieler inkludiert, der das Spiel autonom spielt, bis die gesetzte Zielpunktzahl erreicht ist.",
     cannonTitle: "CannonBall Simulation",
     cannonText: "Erstellt in der Programmiersprache <b>Haxe</b> mit OpenFL, ist diese interaktive 2D-Simulation eine realistische physikalische Darstellung von Schwerkraft, Luftwiderstand, Wind, Masse, Geschwindigkeit und Abschusswinkel. Sie bietet den Vergleich von Flugbahnen mit und ohne Luftwiderstand sowie einen Zielmodus, in dem der Benutzer Koordinaten eingibt und versucht, das Ziel zu treffen.",
-    somniaTitle: "Somnia 360° Photobooth",
-    somniaText: "Eine vollständig responsive Website, die für Somnia 360° Photobooth entwickelt wurde. Sie präsentiert die angebotenen Dienstleistungen, enthält umfangreiche Bilder- und Videogalerien und verfügt über ein integriertes Kontaktformular mit direkter E-Mail-Funktionalität. Das Projekt ist primär Frontend-orientiert, beinhaltet aber auch ein schlankes Backend-Feature zur effizienten Nachrichtenverarbeitung.",
-    hotelTitle: "Hotelreservierungs-App",
-    hotelText: "Eine plattformübergreifende Flutter-Anwendung zur Verwaltung von Hotelzimmerreservierungen. Sie bietet eine intuitive Benutzeroberfläche zum entdecken verfügbarer Zimmer, zur Überprüfung der Verfügbarkeit und zum Vornehmen von Reservierungen mit automatischer Preisberechnung. Die App nutzt SQLite zur lokalen Datenspeicherung und enthält detaillierte Zimmerbeschreibungen und Bilder. Das Design zeichnet sich durch responsive Layouts und flüssige Navigation in Kombination mit effizienter Datenbankverwaltung aus.",
+    somniaTitle: "Somnia 360°",
+    somniaText: "Eine vollständig responsive Website, die für Somnia 360° entwickelt wurde. Sie präsentiert die angebotenen Dienstleistungen, enthält umfangreiche Bilder- und Videogalerien und verfügt über ein integriertes Kontaktformular mit direkter E-Mail-Funktionalität. Das Projekt ist primär Frontend-orientiert, beinhaltet aber auch ein schlankes Backend-Feature zur effizienten Nachrichtenverarbeitung.",
+    fraudDetectorTitle: "AI Real-time Fraud Detector",
+    fraudDetectorText: "Production Style Echtzeit-Betrugserkennungssystem für Kreditkartentransaktionen, entwickelt mit <b>Python</b>, FastAPI, Kafka, TensorFlow, PostgreSQL, Docker und Streamlit. Nutzt Autoencoder-Neuronale Netze zur Anomalieerkennung und Live-Überwachung von Transaktionen innerhalb einer verteilten Streaming-Architektur, inklusive integrierter Tests, skalierbarem Microservices-Design und realistischer Finanzdatensimulation.",
     passwordTitle: "CLI Password Manager",
     passwordText: "Ein sicherer und leistungsstarker <b>C++</b> Passwort-Manager, entwickelt mit AES-256-GCM Verschlüsselung, einem Master-Passwort-Sicherheitsmodell und vollständigem Session-Schutz. Alle Zugangsdaten werden lokal in einer verschlüsselten SQLite-Datenbank gespeichert. Das Projekt umfasst sicheres Memory-Wiping, eine langsame Key-Derivation-Function (KDF), einen Auto-Lock Mechanismus, verschlüsselten Export/Import, einen Generator für sichere Passwörter und ein farbcodiertes CLI-Interface.",
     crowdTitle: "Crowdfunding Startup - Django App",
@@ -122,8 +122,8 @@ function setLanguage(lang) {
   document.querySelector('#cannon p').innerHTML = t.cannonText;
   document.querySelector('#somnia h3').textContent = t.somniaTitle;
   document.querySelector('#somnia p').innerHTML = t.somniaText;
-  document.querySelector('#hotel h3').textContent = t.hotelTitle;
-  document.querySelector('#hotel p').innerHTML = t.hotelText;
+  document.querySelector('#fraud_detector h3').textContent = t.fraudDetectorTitle;
+  document.querySelector('#fraud_detector p').innerHTML = t.fraudDetectorText;
   document.querySelector('#passwordmanager h3').textContent = t.passwordTitle;
   document.querySelector('#passwordmanager p').innerHTML = t.passwordText;
   document.querySelector('#crowd h3').textContent = t.crowdTitle;
